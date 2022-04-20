@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+
+:root{
+    --fonte: 'Roboto', sans-serif;;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+}
+
+body{
+    background-color: #F5F5F5;
+    font-family: var(--fonte);
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+header.cabecalho{
+    display: flex;
+    justify-content: center;
+    padding: 25px 15px 15px 25px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+main.conteudo{
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+footer.rodape{
+    flex-shrink: 0;
+}
+
+img.logo{
+    width: 200px;
+    margin-top: -15px
+}
+
+.principal{
+    display: flex;
+    height: 500px;
+}
+
+div.page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    width: 900px;
+    margin: auto;
+}
+
+article.page-cadastro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 340px;
+    height: 140px;
+    padding: 30px;
+}
+
+h1.page-cadastro-titulo{
+    font-weight: regular;
+    font-size: 2em;
+}
+
+span.new{
+    color: #9A5617;
+}
+
+p.page.cadastro.convite{
+    font-size: 0.5em;
+    text-align: justify;
+}
+
+div.page-cadastro-input input{
+    height: 10px;
+    width: 180px;
+    padding: 10px;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+.btn{
+    color: #F5F5F5;
+    border: none;
+    background-color: #2E1B0E;
+    padding: 10px;
+    width: 200px;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: #9A5617;
+}
+
+div.page-img img{
+    width: 400px;
+    border-radius: 20px;
+}
+
+.saibamais{
+    background-image: url("../img/blur.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.saibamais-div{
+    width: 900px;
+    color: #F5F5F5;
+}
+
+
+footer.rodape{
+    box-shadow: -3px -3px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+}
+
+p.rodape-text a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #2E1B0E;
+    transition: 0.3s;
+}
+p.rodape-text a:hover{
+    color: #9A5617;
+}
+
+
