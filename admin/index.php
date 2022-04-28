@@ -19,14 +19,14 @@
                 <article class="page-cadastro">
                     <h1 class="page-cadastro-titulo">Olá!<br> Faça o Login no <span class="new">NewsLetter</span>,</h1>
                     <p class="page-cadastro-convite">Esta área é restrita a administradores e editores, faça o login para continuar</p>
-                    <form action="./includes/banco.php" class="formulario" method="POST">
+                    <form action="../includes/login.php" class="formulario" method="POST">
                         <div class="page-cadastro-input">
                             <input type="text" placeholder="Seu Login" id="idlogin" name="clogin"></input>
                         </div>
                         <div class="page-cadastro-input">
                             <input type="password" placeholder="Sua Senha" id="idsenha" name="csenha"></input>
                         </div>
-                        <input class="btn" value="Enviar" type="submit"></input>
+                        <input class="btn" value="Entrar" type="submit"></input>
                     </form>
                 </article>
         

@@ -10,7 +10,7 @@
 <body>
 
     <header class="cabecalho">
-        <a href="https://www.linkedin.com/in/preisteixeira/" target="_blank"><img src="img/logo.png" alt="Logo" class="logo"></a>
+        <a href="#"><img src="img/logo.png" alt="Logo" class="logo"></a>
     </header>
 
     <main class="conteudo">
